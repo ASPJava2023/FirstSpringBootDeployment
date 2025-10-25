@@ -1,0 +1,223 @@
+2025-10-25 22:05:55 [restartedMain] INFO  c.a.F.FirstSpringBootDeploymentApplication        .logStarting:53 - Starting FirstSpringBootDeploymentApplication using Java 23.0.1 with PID 28164 (C:\Users\Asus\Downloads\FirstSpringBootDeployment\target\classes started by Asus in C:\Users\Asus\Downloads\FirstSpringBootDeployment)
+2025-10-25 22:05:55 [restartedMain] DEBUG c.a.F.FirstSpringBootDeploymentApplication        .logStarting:54 - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-25 22:05:55 [restartedMain] INFO  c.a.F.FirstSpringBootDeploymentApplication        .logStartupProfileInfo:652 - No active profile set, falling back to 1 default profile: "default"
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.core.ContainerBase            .log:168 - Add container child [StandardHost[localhost]] to container [StandardEngine[Tomcat]]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.core.ContainerBase            .log:168 - Add container child [TomcatEmbeddedContext[]] to container [StandardEngine[Tomcat].StandardHost[localhost]]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardServer[-1]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@4f62719a] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@4f62719a] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardService[Tomcat]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.mapper.MapperListener@dd1687c] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.mapper.MapperListener@dd1687c] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [Connector["http-nio-8082"]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol          .log:168 - Initializing ProtocolHandler ["http-nio-8082"]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [Connector["http-nio-8082"]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardService[Tomcat]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardServer[-1]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardServer[-1]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardServer[-1]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@4f62719a] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@4f62719a] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@4f62719a] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardService[Tomcat]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] INFO  o.apache.catalina.core.StandardService            .log:168 - Starting service [Tomcat]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardService[Tomcat]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] INFO  org.apache.catalina.core.StandardEngine           .log:168 - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.webresources.StandardRoot@22571c66] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.webresources.StandardRoot@22571c66] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.webresources.StandardRoot@22571c66] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.webresources.DirResourceSet@176a38c2] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.webresources.DirResourceSet@176a38c2] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.webresources.DirResourceSet@176a38c2] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.webresources.DirResourceSet@176a38c2] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.webresources.DirResourceSet@176a38c2] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.webresources.StandardRoot@22571c66] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.webresources.StandardRoot@22571c66] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.loader.WebappLoader           .log:168 - Starting this Loader
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.webresources.Cache            .log:168 - Increased cache size by [531] for item [org.apache.catalina.webresources.CachedResource@8f294d8] at [/WEB-INF/classes] making total cache size [531]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@23f91e1a] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@23f91e1a] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@23f91e1a] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@23f91e1a] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@23f91e1a] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                .log:168 - Initializing Spring embedded WebApplicationContext
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.core.ContainerBase            .log:168 - Add container child [StandardWrapper[dispatcherServlet]] to container [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@73c1c577] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@73c1c577] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@73c1c577] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@73c1c577] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@73c1c577] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG o.a.catalina.session.StandardManager              .log:170 - Persisted data file [C:\Users\Asus\AppData\Local\Temp\83A22BE06588B46F0DC4899A4AF7A64739A743C1\servlet-sessions\SESSIONS.ser] was not found
+java.io.FileNotFoundException: C:\Users\Asus\AppData\Local\Temp\83A22BE06588B46F0DC4899A4AF7A64739A743C1\servlet-sessions\SESSIONS.ser (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:185)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:154)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:343)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4479)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:868)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:436)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.asp.FirstSpringBootDeployment.FirstSpringBootDeploymentApplication.main(FirstSpringBootDeploymentApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [INITIALIZING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [INITIALIZED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat]] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardEngine[Tomcat]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.mapper.MapperListener@dd1687c] to [STARTING_PREP]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.mapper.MapperListener@dd1687c] to [STARTING]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.mapper.Mapper                 .log:168 - Registered host [localhost]
+2025-10-25 22:05:56 [restartedMain] DEBUG o.apache.catalina.mapper.MapperListener           .log:168 - Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2025-10-25 22:05:56 [restartedMain] DEBUG o.apache.catalina.mapper.MapperListener           .log:168 - Register Context [] for service [StandardService[Tomcat]]
+2025-10-25 22:05:56 [restartedMain] DEBUG o.apache.catalina.mapper.MapperListener           .log:168 - Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [org.apache.catalina.mapper.MapperListener@dd1687c] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardService[Tomcat]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [StandardServer[-1]] to [STARTED]
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.webresources.Cache            .log:168 - Increased cache size by [521] for item [org.apache.catalina.webresources.CachedResource@1ca6b077] at [/index.html] making total cache size [1052]
+2025-10-25 22:05:56 [restartedMain] DEBUG _.s.web.servlet.HandlerMapping.Mappings           .detectHandlerMethods:294 - 
+	c.a.F.c.WelcomController:
+	{GET [/welcome/message]}: welcomeMessage()
+	{GET [/welcome/author/{authorName}]}: welcomeToAuthor(String)
+2025-10-25 22:05:56 [restartedMain] DEBUG _.s.web.servlet.HandlerMapping.Mappings           .detectHandlerMethods:294 - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-10-25 22:05:56 [restartedMain] DEBUG _.s.web.servlet.HandlerMapping.Mappings           .detectHandlers:86 - 'beanNameHandlerMapping' {}
+2025-10-25 22:05:56 [restartedMain] DEBUG org.apache.catalina.webresources.Cache            .log:168 - Increased cache size by [501] for item [org.apache.catalina.webresources.CachedResource@d94974a] at [/] making total cache size [1553]
+2025-10-25 22:05:56 [restartedMain] DEBUG _.s.web.servlet.HandlerMapping.Mappings           .logMappings:176 - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-10-25 22:05:57 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [Connector["http-nio-8082"]] to [STARTING_PREP]
+2025-10-25 22:05:57 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [Connector["http-nio-8082"]] to [STARTING]
+2025-10-25 22:05:57 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol          .log:168 - Starting ProtocolHandler ["http-nio-8082"]
+2025-10-25 22:05:57 [restartedMain] DEBUG org.apache.catalina.util.LifecycleBase            .log:168 - Setting state for [Connector["http-nio-8082"]] to [STARTED]
+2025-10-25 22:05:57 [restartedMain] INFO  c.a.F.FirstSpringBootDeploymentApplication        .logStarted:59 - Started FirstSpringBootDeploymentApplication in 1.742 seconds (process running for 2.283)
+2025-10-25 22:06:19 [http-nio-8082-exec-1] DEBUG o.a.c.a.jaspic.AuthConfigFactoryImpl              .log:168 - Loading persistent provider registrations from [C:\Users\Asus\AppData\Local\Temp\tomcat.8082.6936293562763748024\conf\jaspic-providers.xml]
+2025-10-25 22:06:19 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                .log:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-25 22:06:19 [http-nio-8082-exec-1] INFO  c.a.F.controller.WelcomController                 .welcomeMessage:16 - Welcome message endpoint called
+2025-10-25 22:06:20 [http-nio-8082-exec-2] DEBUG org.apache.catalina.webresources.Cache            .log:168 - Increased cache size by [523] for item [org.apache.catalina.webresources.CachedResource@7191caee] at [/favicon.ico] making total cache size [2076]
+2025-10-25 22:06:39 [http-nio-8082-exec-3] INFO  c.a.F.controller.WelcomController                 .welcomeMessage:16 - Welcome message endpoint called
+2025-10-25 22:06:56 [http-nio-8082-exec-4] INFO  c.a.F.controller.WelcomController                 .welcomeToAuthor:22 - Welcome message endpoint called for author: Ram Mohan Das
+2025-10-25 22:07:22 [SIGINT handler] DEBUG java.lang.Runtime                                 .log:257 - Runtime.exit() called with status: 130
+java.lang.Throwable: Runtime.exit(130)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Terminator$1.handle(Terminator.java:51)
+	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
+	at java.base/java.lang.Thread.run(Thread.java:1575)

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Print internal Logback status to console (helps debug file creation) -->
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
+
+    <!-- Default log directory - change at runtime by setting -DLOG_DIR=/path/to/logs -->
+    <property name="LOG_DIR" value="./logs" />
+
+    <!-- Ensure the directory exists - Logback will create files, but not nested directories.
+         Create 'logs' folder manually or via build/run script if necessary. -->
+
+    <!-- Rolling File Appender -->
+    <appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- Use LOG_DIR property; file will be logs/asp.log by default -->
+        <file>${LOG_DIR}/asp.log</file>
+
+        <!-- Append to existing file instead of overwriting -->
+        <append>true</append>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %-50logger{40}.%M:%L - %msg%n</pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- daily with index when size threshold reached -->
+            <fileNamePattern>${LOG_DIR}/asp-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+
+            <!-- roll when file grows beyond this -->
+            <maxFileSize>1GB</maxFileSize>
+
+            <!-- keep history -->
+            <maxHistory>30</maxHistory>
+
+            <!-- optional total cap -->
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Console Appender -->
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root logger -->
+    <root level="INFO">
+        <appender-ref ref="Console" />
+        <appender-ref ref="RollingFile" />
+    </root>
+
+    <!-- package level controls -->
+    <logger name="org.springframework" level="WARN" />
+    <logger name="com.asp" level="DEBUG" />
+
+</configuration>
