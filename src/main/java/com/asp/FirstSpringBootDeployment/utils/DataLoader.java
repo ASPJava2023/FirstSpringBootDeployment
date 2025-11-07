@@ -1,3 +1,4 @@
+
 package com.asp.FirstSpringBootDeployment.utils;
 
 import com.asp.FirstSpringBootDeployment.entity.Tutorial;
@@ -34,3 +35,4 @@ public class DataLoader implements CommandLineRunner {
         }
     }
 }
+

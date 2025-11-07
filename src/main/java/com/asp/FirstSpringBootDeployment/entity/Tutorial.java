@@ -49,19 +49,19 @@ public class Tutorial {
      * Fallback to ensure timestamps are always set (runs before persist/update).
      * This covers cases where auditing didn't run for some reason.
      */
-    @PrePersist
-    protected void onCreate() {
-        if (createdAt == null) {
-            createdAt = LocalDateTime.now();
-        }
-        if (updatedAt == null) {
-            updatedAt = createdAt;
-        }
-    }
-
-    @PreUpdate
-    protected void onUpdate() {
-        updatedAt = LocalDateTime.now();
-    }
+//    @PrePersist
+//    protected void onCreate() {
+//        if (createdAt == null) {
+//            createdAt = LocalDateTime.now();
+//        }
+//        if (updatedAt == null) {
+//            updatedAt = createdAt;
+//        }
+//    }
+//
+//    @PreUpdate
+//    protected void onUpdate() {
+//        updatedAt = LocalDateTime.now();
+//    }
 
 }
